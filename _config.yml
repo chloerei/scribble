@@ -1,5 +1,5 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
+title:            "Anna,go with him."
+description:      "Mike,Ryu,Tak,Pokka"
 url:              # Site url.
 baseurl:          # Base url. ( if use subdirectory-like URL )
 signoff:          # Your name.
@@ -9,17 +9,20 @@ google_analytics_id: # set tracking, UA-XXXX-Y.
 links:
   - name:         About
     url:          /about
+
+  - name:         Contact
+    url:          /contact
+
+  - name:         Twitter
+    url:          https://twitter.com/pokkalee
+    external:     true
+
+  - name:         GitHub
+    url:          https://github.com/pokka/pokka.github.io
+    external:     true
+
   - name:         Feed
     url:          /feed.xml
-  - name:         Blog
-    url:          http://chloerei.com
-    external:     true
-  - name:         Email
-    url:          mailto:chloerei@gmail.com
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/chloerei/scribble
-    external:     true
 
 pygments:         true
 permalink:        pretty
